@@ -1,0 +1,20 @@
+.Tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Tag{
+    background-color: #fff;
+    margin: 4px;
+    cursor: pointer;
+    padding: 4px;
+    align-items: center;
+    text-align: center;
+}
+
+.Tag.active{
+    background-color: #df9815;
+    color: #fff;
+}
